@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d01f22-4e84-463e-98ce-54e060a17f6b" name="Default" comment="" />
+    <list default="true" id="d2d01f22-4e84-463e-98ce-54e060a17f6b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/spec/test_spec.rb" afterPath="$PROJECT_DIR$/spec/test_spec.rb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="test_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/test_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="448">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -39,6 +41,11 @@
         <option value="RSpec Test Template" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PolishNotationCalculator.evaluate</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -133,12 +140,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518704600993</updated>
-      <workItem from="1518704603679" duration="4647000" />
+      <workItem from="1518704603679" duration="5049000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4647000" />
+    <option name="totallyTimeSpent" value="5049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1028" extended-state="6" />
@@ -217,8 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/test_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="448">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
