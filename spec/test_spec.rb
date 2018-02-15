@@ -10,11 +10,9 @@ class PolishNotationCalculator
       if item.match(/\d+/)
         acc.concat [Operand.new(item.to_i)]
       else
-        operand = acc.last
+        operand = acc[-1]
         operand.send(item.to_sym, acc)
       end
-
-
     }.first.get_number
   end
 end
@@ -27,25 +25,27 @@ class Operand
   def +(stack)
     other = stack[-2].get_number
     stack.pop(2)
-    stack.concat [Operand.new(@number + other)]
+    stack.concat [Operand.new(other + @number)]
   end
 
   def -(stack)
     other = stack[-2].get_number
     stack.pop(2)
-    stack.concat [Operand.new(@number - other)]
+    stack.concat [Operand.new(other - @number)]
   end
 
   def *(stack)
     other = stack[-2].get_number
     stack.pop(2)
-    stack.concat [Operand.new(@number * other)]
+    stack.concat [Operand.new(other * @number)]
   end
 
   def /(stack)
     other = stack[-2].get_number
     stack.pop(2)
-    stack.concat [Operand.new(@number / other)]
+    stack.concat [
+      Operand.new((other % @number != 0 ? other.to_f : other) / @number)
+    ]
   end
 
   def sqr(stack)
